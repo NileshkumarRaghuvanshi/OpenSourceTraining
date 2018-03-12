@@ -1,0 +1,1 @@
+# FFF mocking sample code
