@@ -1,3 +1,7 @@
+/*
+ * A comment
+ */
+
 #include <stdio.h>
 
 int main()
