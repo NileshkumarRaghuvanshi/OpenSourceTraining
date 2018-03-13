@@ -28,18 +28,6 @@ void test_find_three_number_average_should_AverageHighValues(void) {
 }
 
 
-int main(void) {
-	UNITY_BEGIN();
-
-	RUN_TEST(test_find_three_number_average_should_AverageMidRangeValues);
-	RUN_TEST(test_find_three_number_average_should_AverageHighValues);
-	//RUN_TEST(test_to_fail);
-	//RUN_TEST(test_check_pointers);
-
-	return UNITY_END();
-}
-
-
 /*
 void test_find_three_number_average_should_AverageMidRangeValues(void) {
 
@@ -86,3 +74,17 @@ void test_check_pointers(void) {
 }
 
 */
+
+
+int main(void) {
+	UNITY_BEGIN();
+
+	RUN_TEST(test_find_three_number_average_should_AverageMidRangeValues);
+	RUN_TEST(test_find_three_number_average_should_AverageHighValues);
+	//RUN_TEST(test_to_fail);
+	//RUN_TEST(test_check_pointers);
+
+	return UNITY_END();
+}
+
+
